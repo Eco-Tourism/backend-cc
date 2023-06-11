@@ -5,7 +5,7 @@ test postmam
 public
 http://localhost:8080/api/test/all
 
-*register
+*register*
 http://localhost:8080/api/auth/signup
 req body
 {
