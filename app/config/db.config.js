@@ -1,7 +1,5 @@
 module.exports = {
-    //HOST: "34.101.70.138",
-    //USER: "admin",
-    //PASSWORD: "admin",
+    //ganti host user dan password kalau mau dideploy
     HOST: "localhost",
     USER: "root",
     PASSWORD: "",

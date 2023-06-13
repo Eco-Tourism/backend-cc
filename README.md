@@ -1,13 +1,13 @@
 # auth-eco
-Belum di deploy
+Sebelum di deploy
 buat db dulu di local
-test postman
+test postman local
 public
 http://localhost:8080/api/test/all
 
 *register*
 http://localhost:8080/api/auth/signup
-req body
+contoh req body
 {
     "username":"test",
     "email": "test@gmail.com",
@@ -21,7 +21,7 @@ req body
 
 *login*
 http://localhost:8080/api/auth/signin
-req body
+contoh req body
 {
     "username":"test",
     "password": "test"
@@ -30,6 +30,19 @@ req body
 *users*
 http://localhost:8080/api/test/user
 header
-token dari login
+contoh token dari login
 x-access-token;eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwiaWF0IjoxNjg2NTEyNDk1LCJleHAiOjE2ODY1OTg4OTV9.vt1fNAZpUVJpgkFKf9v3jEPVaKewBcnzLmVFCeqyZ2s
 
+
+api setelah di deploy
+
+//home
+http://34.101.127.157:8080
+//public
+http://34.101.127.157:8080/api/test/all
+//register
+http://34.101.127.157:8080/api/auth/signup
+//login
+http://34.101.127.157:8080/api/auth/signin
+//user page
+http://34.101.127.157:8080/api/test/user
