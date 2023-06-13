@@ -46,11 +46,15 @@ api setelah di deploy
 
 *home*
 http://34.101.127.157:8080
+
 *public*
 http://34.101.127.157:8080/api/test/all
+
 *register*
 http://34.101.127.157:8080/api/auth/signup
+
 *login*
 http://34.101.127.157:8080/api/auth/signin
+
 *users*
 http://34.101.127.157:8080/api/test/user
