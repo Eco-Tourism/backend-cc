@@ -11,6 +11,7 @@ http://localhost:8080/api/test/all
 
 *register*
 http://localhost:8080/api/auth/signup
+
 contoh req body
 {
     "username":"test",
@@ -25,6 +26,7 @@ contoh req body
 
 *login*
 http://localhost:8080/api/auth/signin
+
 contoh req body
 {
     "username":"test",
@@ -33,20 +35,22 @@ contoh req body
 
 *users*
 http://localhost:8080/api/test/user
-header
+
+contoh header
 contoh token dari login
+
 x-access-token;eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwiaWF0IjoxNjg2NTEyNDk1LCJleHAiOjE2ODY1OTg4OTV9.vt1fNAZpUVJpgkFKf9v3jEPVaKewBcnzLmVFCeqyZ2s
 
 
 api setelah di deploy
 
-//home
+*home*
 http://34.101.127.157:8080
-//public
+*public*
 http://34.101.127.157:8080/api/test/all
-//register
+*register*
 http://34.101.127.157:8080/api/auth/signup
-//login
+*login*
 http://34.101.127.157:8080/api/auth/signin
-//user page
+*users*
 http://34.101.127.157:8080/api/test/user
