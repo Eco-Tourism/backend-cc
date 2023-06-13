@@ -2,7 +2,8 @@
 Sebelum di deploy
 buat db dulu di local
 test postman local
-public
+
+*public*
 http://localhost:8080/api/test/all
 
 *register*
