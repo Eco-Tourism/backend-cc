@@ -3,6 +3,9 @@ Sebelum di deploy
 buat db dulu di local
 test postman local
 
+*home*
+http://localhost:8080
+
 *public*
 http://localhost:8080/api/test/all
 
