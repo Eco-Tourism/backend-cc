@@ -18,6 +18,8 @@ exports.signup = (req, res) => {
     kontak: req.body.kontak,
     jeniskelamin: req.body.jeniskelamin,
     hobi: req.body.hobi,
+    kota: req.body.kota,
+    suasana: req.body.suasana,
   })
     .then(user => {
       res.send({
@@ -74,6 +76,8 @@ exports.signin = (req, res) => {
         kontak: user.kontak,
         jeniskelamin: user.jeniskelamin,
         hobi: user.hobi,
+        kota: user.kota,
+        suasana: user.suasana,
         accessToken: token
       });
     })

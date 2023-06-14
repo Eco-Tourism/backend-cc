@@ -23,6 +23,12 @@ module.exports = (sequelize, Sequelize) => {
       },
       hobi: {
         type: Sequelize.STRING
+      },
+      kota: {
+        type: Sequelize.INTEGER
+      },
+      suasana: {
+        type: Sequelize.STRING
       }
     });
   

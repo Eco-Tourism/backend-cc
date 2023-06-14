@@ -83,6 +83,38 @@ checkDuplicateUsernameOrEmail = (req, res, next) => {
         return;
       }
 
+      // Kota yang disukai
+      if (!req.body.kota) {
+        res.status(400).send({
+          message: "Failed! city is required!"
+        });
+        return;
+      }
+
+      // suasana yang disukai
+      if (!req.body.suasana) {
+        res.status(400).send({
+          message: "Failed! atmosphere is required!"
+        });
+        return;
+      }
+
+      // Validasi int kota
+      if (req.body.kota !== undefined && !Number.isInteger(parseInt(req.body.kota))) {
+        return res.status(400).send({
+          message: "Failed! city selection should be a number!"
+        });
+      }
+
+
+      // Validasi int suasana
+      if (req.body.suasana !== undefined && !Number.isInteger(parseInt(req.body.suasana))) {
+        return res.status(400).send({
+          message: "Failed! atmosphere selection should be a number!"
+        });
+      }
+
+
       next();
     });
   });
